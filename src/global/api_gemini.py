@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
-genai.configure(api_key="AIzaSyBSD_tgks_LuTnL605H2cemm5fs04uJRYI")
+genai.configure(api_key="")
 
 model = genai.GenerativeModel("gemini-2.0-flash") # Ou "gemini-pro"
 
